@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Picture_id: MyString
+  Light: false
+  Water: false
+  Membership: false
+  Address: MyString
+
+two:
+  Picture_id: MyString
+  Light: false
+  Water: false
+  Membership: false
+  Address: MyString
