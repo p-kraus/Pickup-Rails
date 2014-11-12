@@ -9,9 +9,13 @@
 				<%= court.Light%>
 				<%= court.Membership%>
 				<%= court.Address%>
-				<%= court.comments%>
+				<% court.comments.each do |comment| %>
+					<div class="comment">
+						<%= comment.Entry %>
+					</div>
+				<% end %>
 			</div>
-			<% end %>
+		<% end %>
 	</div>
 </div>
 	
