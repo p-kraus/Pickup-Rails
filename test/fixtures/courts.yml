@@ -1,6 +1,6 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
+courtone:
   Picture_id: MyString
   Light: false
   Water: false
@@ -9,7 +9,7 @@ one:
   Name: goodbye
   Picture_id: http://goodtidings.org/assets/galleries/29/2009_adonal_foyle_basketball_court_at_william_wilkins_park_-_oakland.jpg
 
-two:
+courttwo:
   Picture_id: MyString
   Light: false
   Water: false
