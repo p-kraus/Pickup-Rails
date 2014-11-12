@@ -3,4 +3,6 @@ class Court < ActiveRecord::Base
 
 	validates :address, length: {minimum: 5}
 	validates :comment, presence: true
+
+
 end

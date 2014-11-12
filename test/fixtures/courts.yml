@@ -6,6 +6,8 @@ one:
   Water: false
   Membership: false
   Address: MyString
+  Name: goodbye
+  Picture_id: http://goodtidings.org/assets/galleries/29/2009_adonal_foyle_basketball_court_at_william_wilkins_park_-_oakland.jpg
 
 two:
   Picture_id: MyString
@@ -13,3 +15,5 @@ two:
   Water: false
   Membership: false
   Address: MyString
+  Name: Hello
+  Picture_id: http://www.courtsoftheworld.com/upload/courts/249/0/COTW_Lakeview-Park_1244671492.jpg
