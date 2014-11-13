@@ -4,14 +4,14 @@
 		<% @courts.each do |court| %>
 			<div class="col-xs-3 box">
 				<%= link_to court.name, court %>
-				<%= link_to(image_tag(court.Picture_id),court) %> 
-				<%= court.Water%>
-				<%= court.Light%>
-				<%= court.Membership%>
-				<%= court.Address%>
+				<%= link_to(image_tag(court.picture_id),court) %> 
+				<%= court.water%>
+				<%= court.light%>
+				<%= court.membership%>
+				<%= court.address%>
 				<% court.comments.each do |comment| %>
 					<div class="comment">
-						<%= comment.Entry %>
+						<%= comment.entry %>
 					</div>
 				<% end %>
 			</div>

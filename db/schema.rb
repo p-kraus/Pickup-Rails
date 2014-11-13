@@ -11,26 +11,26 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141112194249) do
+ActiveRecord::Schema.define(version: 20141112231208) do
 
   create_table "comments", force: true do |t|
-    t.string   "Entry"
-    t.integer  "Court_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "entry"
+    t.integer  "court_id"
   end
 
   create_table "courts", force: true do |t|
-    t.string   "Picture_id"
-    t.boolean  "Light"
-    t.boolean  "Water"
-    t.boolean  "Membership"
-    t.string   "Address"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.decimal  "lat"
-    t.decimal  "long"
     t.string   "name"
+    t.float    "latitude"
+    t.float    "longitude"
+    t.boolean  "light"
+    t.boolean  "water"
+    t.boolean  "membership"
+    t.string   "address"
+    t.string   "picture_id"
   end
 
   create_table "locations", force: true do |t|
